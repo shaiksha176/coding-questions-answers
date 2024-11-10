@@ -13,4 +13,18 @@ var reverseList = function(head) {
     }
 
     return prev;
-};
+}
+
+;
+
+````
+
+## Time Complexity:
+
+O(n), where n is the number of nodes in the list, since we traverse each node once.
+
+## Space Complexity:
+
+O(1), as we only use a constant amount of extra space for pointers.
+
+
