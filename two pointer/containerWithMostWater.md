@@ -1,6 +1,6 @@
 **Leetcode 11: Container With Most Water**
 
-The problem asks to find two indices iii and jjj such that the container formed by the lines at these indices contains the most water. The lines are represented by the array height, where height\[i\] is the height of the vertical line at index iii, and the width between two lines is j−ij - ij−i. The goal is to maximize the area formed by these two lines.
+The problem asks to find two indices i and j such that the container formed by the lines at these indices contains the most water. The lines are represented by the array height, where height\[i\] is the height of the vertical line at index iii, and the width between two lines is j−ij - ij−i. The goal is to maximize the area formed by these two lines.
 
 ### Problem Description
 
