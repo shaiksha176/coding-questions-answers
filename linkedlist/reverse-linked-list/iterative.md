@@ -19,6 +19,17 @@ var reverseList = function(head) {
 
 ````
 
+## Explanation
+
+1. Initialize prev as null and current as head
+2. Iterate through the list:
+   1. Store the next node of current in nextNode.
+   2. Reverse the pointer of current to point to prev
+   3. Move prev to current and current to nextNode.
+3. End Of the List
+   1. When current becomes null, prev will be the new head of the reversed list    
+   
+
 ## Time Complexity:
 
 O(n), where n is the number of nodes in the list, since we traverse each node once.
