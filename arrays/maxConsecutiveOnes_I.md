@@ -1,4 +1,6 @@
+
 ## Brute Force
+
 
 ```javascript
 function findMaxConsecutiveOnes(nums) {
