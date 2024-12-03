@@ -23,3 +23,98 @@
 8.  **Rotate Array**Rotate an array to the right by k steps.
 9.  **Find All Duplicates in an Array**Find all elements that appear twice in an array.
 10. **Kth Largest Element in an Array**Find the kth largest element in an unsorted array.
+
+### Basic Array Manipulation
+
+1.  **1. Two Sum**
+2.  **26. Remove Duplicates from Sorted Array**
+3.  **27. Remove Element**
+4.  **35. Search Insert Position**
+5.  **66. Plus One**
+6.  **88. Merge Sorted Array**
+7.  **118. Pascal's Triangle**
+8.  **119. Pascal's Triangle II**
+9.  **121. Best Time to Buy and Sell Stock**
+10. **122. Best Time to Buy and Sell Stock II**
+
+11. **167. Two Sum II - Input Array Is Sorted**
+
+12. **217. Contains Duplicate**
+
+13. **219. Contains Duplicate II**
+
+14. **268. Missing Number**
+
+15. **283. Move Zeroes**
+
+16. **414. Third Maximum Number**
+
+17. **448. Find All Numbers Disappeared in an Array**
+
+18. **485. Max Consecutive Ones**
+
+19. **532. K-diff Pairs in an Array**
+
+20. **561. Array Partition**
+
+21. **566. Reshape the Matrix**
+
+22. **605. Can Place Flowers**
+
+23. **628. Maximum Product of Three Numbers**
+
+24. **643. Maximum Average Subarray I**
+
+25. **661. Image Smoother**
+
+26. **682. Baseball Game**
+
+27. **697. Degree of an Array**
+
+28. **704. Binary Search**
+
+29. **717. 1-bit and 2-bit Characters**
+
+30. **724. Find Pivot Index**
+
+31. **746. Min Cost Climbing Stairs**
+
+32. **905. Sort Array By Parity**
+
+33. **977. Squares of a Sorted Array**
+
+34. **1089. Duplicate Zeros**
+
+35. **1295. Find Numbers with Even Number of Digits**
+
+36. **1346. Check If N and Its Double Exist**
+
+37. **1431. Kids With the Greatest Number of Candies**
+
+38. **1450. Number of Students Doing Homework at a Given Time**
+
+39. **1470. Shuffle the Array**
+
+40. **1480. Running Sum of 1d Array**
+
+41. **1512. Number of Good Pairs**
+
+42. **1572. Matrix Diagonal Sum**
+
+43. **1588. Sum of All Odd Length Subarrays**
+
+44. **1688. Count of Matches in Tournament**
+
+45. **1732. Find the Highest Altitude**
+
+46. **1748. Sum of Unique Elements**
+
+47. **1913. Maximum Product Difference Between Two Pairs**
+
+48. **1929. Concatenation of Array**
+
+49. **2006. Count Number of Pairs With Absolute Difference K**
+
+50. **2011. Final Value of Variable After Performing Operations**
+
+These problems help you build a solid foundation for solving array-based questions and are often asked in technical interviews.
