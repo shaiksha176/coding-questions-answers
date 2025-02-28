@@ -9,7 +9,7 @@ The simplest approach is to use **recursive DFS**. For each node, we calculate t
 Here's the JavaScript implementation:
 
 ```javascript
-var maxDepth = function (root) {
+var maxDepth =  (root) => {
   if (root === null) {
     return 0;
   }
