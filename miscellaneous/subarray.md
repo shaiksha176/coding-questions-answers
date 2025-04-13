@@ -58,3 +58,19 @@ for (let i = 0; i < arr.length; i++) {
   }
 }
 ```
+
+### Code to log all the subarrays of size 3
+
+```javascript
+const arr = [2, 1, 5, 1, 3, 2];
+const k = 3;
+
+for (let i = 0; i <= arr.length - k; i++) {
+  console.log(arr.slice(i, i + k));
+}
+
+
+```
+
+### Find the highest sum of sub array of length 3
+
