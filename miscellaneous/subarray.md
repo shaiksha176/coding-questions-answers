@@ -107,3 +107,82 @@ for (let i = 0; i <= arr.length - k; i++) {
 
 console.log(maxSum);
 ```
+
+### Find the highest sum of sub array of length 3 using sliding window
+
+```javascript
+const arr = [5, 9, 1, 8, 7];
+const k = 3;
+let maxSum = -Infinity;
+let currentSum = 0;
+
+for (let i = 0; i < k; i++) {
+  currentSum += arr[i];
+}
+
+console.log("Current Sum ", currentSum);
+
+maxSum = currentSum;
+
+for (let i = k; i < arr.length; i++) {
+  currentSum = currentSum + arr[i] - arr[i - k];
+  maxSum = Math.max(currentSum, maxSum);
+}
+
+console.log("Max sum ", maxSum);
+```
+
+Why is **right-left+1** or **j-i+1** is used?
+
+The expression right - left + 1 (or j - i + 1) in the sliding window technique is used to calculate the **length of the current window**. Let’s break this down intuitively:
+
+### 📏 Why right - left + 1?
+
+Imagine you're working with an array, and you have a **window** between two indices:
+
+```javascript
+const arr = [a, b, c, d, e, f];
+//             ↑       ↑
+//           left     right
+```
+
+If:
+
+*   left = 1 (pointing at b)
+    
+*   right = 3 (pointing at d)
+    
+
+Then the subarray is: [b, c, d]
+
+How many elements is that?
+
+```javascript
+right - left + 1 = 3 - 1 + 1 = 3
+```
+
+Which is correct — 3 elements.
+
+### ❌ Why not just right - left?
+
+That would be:
+
+```javascript
+3 - 1 = 2
+```
+
+Which would incorrectly say the window size is 2.
+
+That’s because:
+
+*   right - left gives you the **distance between the indices**
+    
+*   right - left + 1 gives you the **actual number of elements**, since both left and right are **inclusive**
+
+### 🧠 When is this used?
+
+You often use right - left + 1 when:
+
+*   You're working with **variable window size problems** (e.g. "find longest substring", "smallest window", etc.)
+    
+*   Or you're trying to **track the actual size** of the window while expanding/contracting it
