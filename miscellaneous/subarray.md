@@ -68,9 +68,42 @@ const k = 3;
 for (let i = 0; i <= arr.length - k; i++) {
   console.log(arr.slice(i, i + k));
 }
+```
 
+### Code to find all the sums of all sub arrays of size 3
 
+```javascript
+const arr = [5, 9, 1, 8, 7];
+const k = 3;
+for (let i = 0; i <= arr.length - k; i++) {
+  let currentSum = 0;
+
+  for (let j = i; j < i + k; j++) {
+    currentSum += arr[j];
+    console.log("Current Sum ", currentSum);
+    console.log("========================");
+  }
+
+  console.log("Current sum after every iteration ", currentSum);
+  console.log("***************");
+}
 ```
 
 ### Find the highest sum of sub array of length 3
 
+```javascript
+const arr = [5, 9, 1, 8, 7];
+const k = 3;
+let maxSum = -Infinity;
+
+for (let i = 0; i <= arr.length - k; i++) {
+  let currentSum = 0;
+
+  for (let j = i; j < i + k; j++) {
+    currentSum += arr[j];
+  }
+  maxSum = Math.max(maxSum, currentSum);
+}
+
+console.log(maxSum);
+```
